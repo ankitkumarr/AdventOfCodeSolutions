@@ -35,9 +35,9 @@ with open("input.txt") as f:
 		if (d%3)==0 :
 			a[2] = int(nu)
 			a.sort()
-			print a
-			mult = (2*(a[0]*a[1])) + (2*(a[1]*a[2])) + (2*(a[2]*a[0]))
-			sum1 = sum1 + mult + (a[0]*a[1])
+			#print a
+			mult = a[0]*a[1]*a[2]
+			sum1 = sum1 + mult + 2*(a[0]+a[1])
 		#	mult = 1
 
 print "Sum = ", sum1

@@ -2,11 +2,10 @@ with open("input.txt") as f:
 	d = 0
 	sum1 = 0
 	flag = 0
-	a= [0 for x in range(3)]
 
 	while True:
 		
-		
+		a= [0 for x in range(3)]
 		mult = 1
 		nu = ''
 		#c = f.read(1)
